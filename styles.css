@@ -7,7 +7,11 @@
     font-family: "Outfit", sans-serif
 }
 
-#main{
+body{
+    background-color: #d5e1ef;
+}
+
+main{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -22,6 +26,8 @@
 
 #item-img img{
     border-radius: 10px;
+    width: 200px;
+    height: 200px;
 }
 
 #item-text{
